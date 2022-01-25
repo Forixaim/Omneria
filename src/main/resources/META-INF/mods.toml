@@ -1,0 +1,40 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[39,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+license="MIT License"
+
+[[mods]] #mandatory
+
+modId="forixaim_omneria" #mandatory
+
+version="${file.jarVersion}" #mandatory
+
+displayName="Omneria" #mandatory
+
+logoFile="" #optional
+
+credits="Forge" #optional
+
+authors="Forixaim" #optional
+
+description='''Omneria is a mod that adds Omnerian weaponry. Currently this mod is Work in Progress.'''
+[[dependencies.examplemod]] #optional
+
+    modId="forge" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="[39,)" #mandatory
+  
+    ordering="NONE"
+    
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"
